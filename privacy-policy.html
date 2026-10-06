@@ -4,89 +4,149 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy Policy — Ameli Ai</title>
-  <style>
-    :root { --bg: #F7F3EF; --ink: #1c1c1c; --muted: #444; --accent: #6B7F3A; }
-    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: var(--bg); color: var(--ink); line-height: 1.7; }
-    main { max-width: 720px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
-    h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.2rem; margin-top: 2rem; }
-    .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
-    p, li { color: var(--muted); }
-    a { color: var(--accent); }
-    ul { padding-left: 1.2rem; }
-    nav a { margin-right: 1rem; }
-  </style>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <main>
-    <nav><a href="./index.html">Home</a><a href="./terms-of-service.html">Terms of Service</a></nav>
-    <h1>Privacy Policy</h1>
-    <p class="meta">Ameli Ai (“Ameli,” “we,” “us,” or “our”)<br />Effective date: October 6, 2026</p>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">A</span>
+        <span>
+          <span class="brand-name">Ameli Ai</span>
+          <span class="brand-sub">Legal center</span>
+        </span>
+      </a>
+      <nav class="top-links">
+        <a href="./index.html">Home</a>
+        <a class="active" href="./privacy-policy.html">Privacy</a>
+        <a href="./terms-of-service.html">Terms</a>
+      </nav>
+    </header>
 
-    <p>This Privacy Policy explains how we collect, use, store, and share information when you use the Ameli Ai mobile application and related services (the “Services”). Ameli is a wellness and lifestyle app that offers therapy-informed AI conversation, journaling, mood tracking, mindfulness tools, and optional health data integrations. Ameli is not a medical provider and does not provide medical advice, diagnosis, or treatment.</p>
+    <section class="hero">
+      <div class="eyebrow">Privacy</div>
+      <h1>Privacy Policy</h1>
+      <p>How Ameli Ai collects, uses, stores, and shares information when you use our wellness app and related services.</p>
+      <div class="meta-row">
+        <span class="chip">Effective Oct 6, 2026</span>
+        <span class="chip">Not for medical advice</span>
+      </div>
+    </section>
 
-    <h2>1. Information we collect</h2>
-    <p>Depending on how you use the Services, we may collect:</p>
-    <ul>
-      <li><strong>Contact info:</strong> name and email address when you create an account (including Google sign-in).</li>
-      <li><strong>Identifiers:</strong> account / user ID associated with your Ameli account.</li>
-      <li><strong>User content:</strong> journal entries, mood logs, chat messages with Ameli AI, gratitude notes, profile photo, and voice recordings you choose to create (for example mindful-minute voice notes).</li>
-      <li><strong>Health &amp; fitness data:</strong> information you enter in assessments or wellness features, and—if you grant permission—data from Apple HealthKit / Google Health Connect such as heart rate, blood pressure, steps, or related activity metrics.</li>
-      <li><strong>Usage data:</strong> information about how you interact with the app (for example feature use and session activity) needed to operate and improve the Services.</li>
-      <li><strong>Technical data:</strong> basic device and app information needed for security, authentication (including optional Face ID / device biometrics stored on your device), and reliable delivery of the Services. We do not use the advertising identifier for ads.</li>
-    </ul>
-    <p>We do not require a physical address, phone contacts list, or precise GPS location to use Ameli.</p>
+    <div class="layout">
+      <aside class="toc">
+        <h2>On this page</h2>
+        <ol>
+          <li><a href="#collect">Information we collect</a></li>
+          <li><a href="#use">How we use it</a></li>
+          <li><a href="#health">Health data</a></li>
+          <li><a href="#ai">AI conversations</a></li>
+          <li><a href="#sharing">Sharing</a></li>
+          <li><a href="#retention">Retention</a></li>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#children">Children</a></li>
+          <li><a href="#rights">Your rights</a></li>
+          <li><a href="#transfers">Transfers</a></li>
+          <li><a href="#changes">Changes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </aside>
 
-    <h2>2. How we use information</h2>
-    <p>We use the information above to:</p>
-    <ul>
-      <li>Create and manage your account and authenticate you</li>
-      <li>Provide app features (AI chat, journaling, mood insights, mindfulness, health displays)</li>
-      <li>Personalize wellness-related experiences within the app</li>
-      <li>Maintain security, prevent fraud/abuse, and troubleshoot issues</li>
-      <li>Communicate about the Services (for example account or product notices)</li>
-      <li>Comply with law and enforce our Terms of Service</li>
-    </ul>
-    <p>We do <strong>not</strong> sell your personal information. We do <strong>not</strong> use your data for third-party advertising or cross-app tracking as defined by Apple.</p>
+      <article class="content">
+        <section id="intro">
+          <p>Ameli Ai (“Ameli,” “we,” “us,” or “our”) is a wellness and lifestyle app with therapy-informed AI conversation, journaling, mood tracking, mindfulness tools, and optional health integrations. Ameli is not a medical provider and does not provide medical advice, diagnosis, or treatment.</p>
+        </section>
 
-    <h2>3. Health data</h2>
-    <p>If you enable HealthKit or Health Connect, health and fitness data is used only to provide the wellness features you request (for example displaying metrics or related insights). We do not use HealthKit data for advertising or sell it. You can revoke health permissions in your device settings at any time.</p>
+        <section id="collect">
+          <h2>1. Information we collect</h2>
+          <p>Depending on how you use the Services, we may collect:</p>
+          <ul>
+            <li><strong>Contact info:</strong> name and email address when you create an account (including Google sign-in).</li>
+            <li><strong>Identifiers:</strong> account / user ID associated with your Ameli account.</li>
+            <li><strong>User content:</strong> journal entries, mood logs, chat messages with Ameli AI, gratitude notes, profile photo, and voice recordings you choose to create.</li>
+            <li><strong>Health &amp; fitness data:</strong> assessment answers and—if you grant permission—HealthKit / Health Connect metrics such as heart rate, blood pressure, or steps.</li>
+            <li><strong>Usage data:</strong> how you interact with the app, needed to operate and improve the Services.</li>
+            <li><strong>Technical data:</strong> basic device and app information for security and delivery. Optional Face ID stays on your device. We do not use the advertising identifier for ads.</li>
+          </ul>
+          <p>We do not require a physical address, phone contacts list, or precise GPS location to use Ameli.</p>
+        </section>
 
-    <h2>4. AI conversations</h2>
-    <p>Messages you send to Ameli AI and related outputs are processed to provide the chat experience. AI responses may be inaccurate or incomplete and are for wellness support only—not clinical care. Do not use Ameli for emergencies. If you are in crisis in the U.S., call or text <strong>988</strong>, or call local emergency services.</p>
+        <section id="use">
+          <h2>2. How we use information</h2>
+          <ul>
+            <li>Create and manage your account and authenticate you</li>
+            <li>Provide app features (AI chat, journaling, mood insights, mindfulness, health displays)</li>
+            <li>Personalize wellness-related experiences within the app</li>
+            <li>Maintain security, prevent fraud/abuse, and troubleshoot issues</li>
+            <li>Communicate about the Services (account or product notices)</li>
+            <li>Comply with law and enforce our Terms of Service</li>
+          </ul>
+          <p>We do <strong>not</strong> sell your personal information. We do <strong>not</strong> use your data for third-party advertising or cross-app tracking as defined by Apple.</p>
+        </section>
 
-    <h2>5. Sharing with service providers</h2>
-    <p>We share data only as needed to operate the Services, for example:</p>
-    <ul>
-      <li><strong>Cloud / backend providers</strong> that host accounts, databases, and storage (for example authentication and content you save)</li>
-      <li><strong>AI / infrastructure providers</strong> that process chat inputs to generate responses</li>
-      <li><strong>Platform providers</strong> such as Apple or Google for sign-in, push notifications, or app distribution</li>
-    </ul>
-    <p>These providers are only permitted to process data to perform services for us and must protect it appropriately. We may also disclose information if required by law, to protect users or the Services, or in connection with a merger or sale of assets.</p>
+        <section id="health">
+          <h2>3. Health data</h2>
+          <p>If you enable HealthKit or Health Connect, health and fitness data is used only to provide the wellness features you request. We do not use HealthKit data for advertising or sell it. You can revoke health permissions in your device settings at any time.</p>
+        </section>
 
-    <h2>6. Data retention</h2>
-    <p>We keep your information for as long as your account is active or as needed to provide the Services, comply with legal obligations, resolve disputes, and enforce agreements. You may request deletion of your account and associated data by contacting us (see Contact).</p>
+        <section id="ai">
+          <h2>4. AI conversations</h2>
+          <p>Messages you send to Ameli AI and related outputs are processed to provide the chat experience. AI responses may be inaccurate or incomplete and are for wellness support only—not clinical care. Do not use Ameli for emergencies. If you are in crisis in the U.S., call or text <strong>988</strong>, or call local emergency services.</p>
+        </section>
 
-    <h2>7. Security</h2>
-    <p>We use reasonable administrative, technical, and organizational measures to protect your information. No method of transmission or storage is completely secure; please use a strong unique password and protect your device.</p>
+        <section id="sharing">
+          <h2>5. Sharing with service providers</h2>
+          <p>We share data only as needed to operate the Services, for example:</p>
+          <ul>
+            <li><strong>Cloud / backend providers</strong> that host accounts, databases, and storage</li>
+            <li><strong>AI / infrastructure providers</strong> that process chat inputs to generate responses</li>
+            <li><strong>Platform providers</strong> such as Apple or Google for sign-in, push notifications, or app distribution</li>
+          </ul>
+          <p>These providers may only process data to perform services for us. We may also disclose information if required by law, to protect users or the Services, or in connection with a merger or sale of assets.</p>
+        </section>
 
-    <h2>8. Children’s privacy</h2>
-    <p>The Services are not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided personal information, contact us and we will take appropriate steps to delete it.</p>
+        <section id="retention">
+          <h2>6. Data retention</h2>
+          <p>We keep your information while your account is active or as needed to provide the Services, comply with law, resolve disputes, and enforce agreements. Request deletion by contacting us below.</p>
+        </section>
 
-    <h2>9. Your choices and rights</h2>
-    <p>Depending on where you live, you may have rights to access, correct, delete, or export your personal information, or to object to certain processing. You can update profile information in the app, revoke device permissions (microphone, photos, health, Face ID) in system settings, and request account deletion by emailing us. We will respond in accordance with applicable law.</p>
+        <section id="security">
+          <h2>7. Security</h2>
+          <p>We use reasonable administrative, technical, and organizational measures to protect your information. No method of transmission or storage is completely secure—use a strong unique password and protect your device.</p>
+        </section>
 
-    <h2>10. International transfers</h2>
-    <p>We may process information in the United States and other countries where we or our providers operate. By using the Services, you understand your information may be transferred to and processed in those locations.</p>
+        <section id="children">
+          <h2>8. Children’s privacy</h2>
+          <p>The Services are not directed to children under 13. We do not knowingly collect personal information from children under 13. Contact us if you believe a child under 13 has provided personal information.</p>
+        </section>
 
-    <h2>11. Changes to this policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will post the updated version here and update the effective date. Continued use of the Services after changes means you accept the updated policy.</p>
+        <section id="rights">
+          <h2>9. Your choices and rights</h2>
+          <p>Depending on where you live, you may have rights to access, correct, delete, or export your personal information, or object to certain processing. Update profile info in the app, revoke device permissions in system settings, and request account deletion by email. We will respond in accordance with applicable law.</p>
+        </section>
 
-    <h2>12. Contact</h2>
-    <p>Questions about this Privacy Policy:<br />
-      Email: <a href="mailto:support@mykavi.app">support@mykavi.app</a><br />
-      Legal: <a href="mailto:legal@mykavi.app">legal@mykavi.app</a>
-    </p>
-  </main>
+        <section id="transfers">
+          <h2>10. International transfers</h2>
+          <p>We may process information in the United States and other countries where we or our providers operate. By using the Services, you understand your information may be transferred to and processed in those locations.</p>
+        </section>
+
+        <section id="changes">
+          <h2>11. Changes to this policy</h2>
+          <p>We may update this Privacy Policy from time to time. We will post the updated version here and update the effective date. Continued use after changes means you accept the updated policy.</p>
+        </section>
+
+        <section id="contact">
+          <h2>12. Contact</h2>
+          <p>
+            Questions about this Privacy Policy:<br />
+            Email: <a href="mailto:support@mykavi.app">support@mykavi.app</a><br />
+            Legal: <a href="mailto:legal@mykavi.app">legal@mykavi.app</a>
+          </p>
+        </section>
+      </article>
+    </div>
+
+    <p class="footer"><a href="./terms-of-service.html">Terms of Service</a> · <a href="./index.html">Legal home</a></p>
+  </div>
 </body>
 </html>
