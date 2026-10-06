@@ -55,17 +55,13 @@ a:hover { text-decoration: underline; }
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 14px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(145deg, #A8C06E, #6B7F3A);
-  color: #fff;
-  font-family: "Fraunces", Georgia, serif;
-  font-weight: 650;
-  font-size: 1.15rem;
-  box-shadow: 0 10px 24px rgba(107, 127, 58, 0.28);
+  object-fit: cover;
+  display: block;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(107, 127, 58, 0.22);
 }
 
 .brand-name {
